@@ -1,0 +1,49 @@
+#main {
+	color: navy;
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 34px;
+	font-weight:bolder;
+	line-height: 50px;
+	text-shadow: ;
+
+}
+
+#main::first-letter {
+	color: red;
+	font-size:120%;
+}
+
+#main::first-line {
+	color: pink;
+}
+
+.blah {
+	font-family: '1942_report1942_report';
+}
+
+.italic {
+	font-style: italic;
+}
+
+a,  
+a:visited {
+	color: gold;
+}
+
+a:hover {
+	color: blue;
+}
+
+a:focus {
+	color: red;
+}
+
+ul a,
+ul a:visited {
+	color: green;
+}
+
+ul a:focus,
+ul a:hover {
+	color: lightblue;
+}

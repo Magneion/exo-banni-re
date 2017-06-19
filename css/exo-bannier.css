@@ -1,0 +1,45 @@
+.fixed {
+	height: 75px;
+	width: 100%;
+	background: linear-gradient(15deg, #593678, #8E940A);
+	left: 0px;
+	top: 0px;
+	position:fixed;
+	z-index: 1000;
+
+}
+
+
+.inline li {
+	display: inline;
+	font-family: "metroregular", serif; 
+	/*attention, metroregular n'a pas d'accents*/
+	font-size:1em;
+	margin: 10px;
+}
+
+.inline {
+	left:2%;
+	position: absolute;
+	margin:0;
+	top: 20%;
+	/*transform: translate(-20%, -20%);*/
+}
+
+li a:focus, 
+li a:hover {
+	color: #F2FF3A;
+}
+
+li a,
+li a:visited,  {
+	color: #352047;
+}
+
+img {
+	vertical-align: middle;
+}
+
+/*a {
+	text-shadow: 2px, 2px, 5px #F7FF4E;
+}*/
