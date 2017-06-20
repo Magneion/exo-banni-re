@@ -19,7 +19,7 @@
 .inline li {
 	font-family: "metroregular", serif; 
 	/*attention, metroregular n'a pas d'accents*/
-	font-size:1em;
+	font-size:0.7em;
 	list-style: none;
 	display: inline-flex;
 }
@@ -39,7 +39,7 @@ li a:visited,  {
 }
 
 img {
-	padding:30px;
+	padding:1.5em;
 }
 
 /*a {
